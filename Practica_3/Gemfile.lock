@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    bcrypt (3.1.12-x64-mingw32)
+    coderay (1.1.2)
+    colorize (0.8.1)
+    cute_logger (0.1.9)
+      awesome_print (~> 1)
+      colorize (~> 0.8.1)
+      utf8_converter (~> 0.1)
+    method_source (0.9.1)
+    mysql2 (0.5.2-x64-mingw32)
+    pry (0.12.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    safe_yaml (1.0.4)
+    sequel (5.14.0)
+    utf8_converter (0.1.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bcrypt
+  cute_logger
+  mysql2
+  pry
+  safe_yaml
+  sequel
+
+BUNDLED WITH
+   1.16.6

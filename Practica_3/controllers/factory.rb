@@ -30,6 +30,7 @@ module Factory
     db = resource(:db)
     id = db.insert(defaults)
     object.data = object.data.merge(id_field => id)
+    store(object)
   end
 
   def newPassword(object)

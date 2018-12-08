@@ -5,7 +5,7 @@ module Services
 
   def self.load_config
     SafeYAML::OPTIONS[:default_mode] = :safe
-    @config = SafeYAML.load_file('.\config\config.yaml')
+    @config = SafeYAML.load_file('.\config.yaml')
   end
 
   def self.database

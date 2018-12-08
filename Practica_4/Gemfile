@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+gem 'cute_logger'
+gem 'grape'
+gem 'puma'
+gem 'rack'
+gem 'ruby-ant-server'
+
+gem 'sequel'
+gem 'safe_yaml'
+gem 'mysql2'
+gem 'pry'
+gem 'bcrypt'
+gem 'httparty'

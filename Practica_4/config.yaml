@@ -1,0 +1,2 @@
+database:
+  endpoint: 'mysql2://root:ESPADA4444@localhost/usu'
